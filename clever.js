@@ -13,7 +13,8 @@ cApi.loadScript = function (url, callback) {
                 if (typeof callback === 'function') {
                     callback();
                 }
-            }
+            }￼
+
         }
     } else {
         script.onload = function () {
